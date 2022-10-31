@@ -1,0 +1,816 @@
+body {
+    margin: 0 auto;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+#logo-img {
+    margin-top: 5px;
+}
+
+h2 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+    color: #333b41;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding-top: 2px;
+}
+
+p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #333b41;
+}
+
+header {
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+    background-color: #000000;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+header .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1160px;
+    max-height: 80px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+.top-navigation-bar {
+    flex: 1;
+}
+
+.navigation {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+.navigation ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    list-style: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.navigation a {
+    margin-right: 10px;
+    color: #fff;
+    text-decoration-line: none;
+}
+
+.big-panda {
+    background-image: url(../../assets/images/GiantPanda.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 700px;
+}
+
+.panda-with-button {
+    width: 500px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    left: 55%;
+    top: -380px;
+}
+
+.big-text {
+    text-align: center;
+    line-height: 75%;
+    font-weight: 700;
+    font-size: 106.5px;
+}
+
+.lovely-zoo-online {
+    border: none;
+    width: 298px;
+    height: 54px;
+    left: calc(50% - 298px / 2 + 332px);
+    top: 626px;
+    background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
+    border-radius: 25px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+}
+
+.lovely-zoo-online:hover {
+    background: #e47209;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.lovely-zoo-online:active {
+    background: #4b9200;
+    border-radius: 25px;
+}
+
+#watch-online-button {
+    margin-top: 62px;
+}
+
+.ellipse {
+    width: 465px;
+    height: 465px;
+    border-radius: 233px;
+    background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
+    position: relative;
+    left: 50.5%;
+    top: 12px;
+}
+
+#favorite {
+    color: #ffee2e;
+}
+
+#about-active {
+    color: #f9804b;
+}
+
+.navigation a:hover {
+    color: #f9804b;
+}
+
+.man-and-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1160px;
+    max-height: 403px;
+    margin: 0 auto;
+    padding-top: 140px;
+    padding-bottom: 80px;
+}
+
+.text {
+    margin-left: 87px;
+    padding-top: 4px;
+}
+
+.middle-backstage {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    color: #333b41;
+    margin-bottom: 34px;
+    margin-top: 57px;
+}
+
+#first-flower {
+    background-image: url(../../assets/images/flower1.jpg);
+    background-size: 200px 605px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.pets-block {
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1160px;
+    max-height: 870px;
+    margin: 0 auto;
+    padding-top: 86px;
+}
+
+.slider-pets-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.slider-pets-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.slider-window {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #fe9013;
+    border-radius: 5px;
+}
+
+#choose-your-favorite {
+    display: block;
+    margin: 0 auto;
+    margin-top: 6px;
+}
+
+h4 {
+    font-family: "Roboto";
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #000000;
+    margin: 0px;
+}
+
+.name-card {
+    margin-top: 7px;
+    margin-left: 16px;
+    margin-bottom: 14px;
+}
+
+.text-cards {
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 15px;
+    color: #000000;
+    margin-top: 0px;
+}
+
+.food {
+    float: right;
+    margin-right: 8px;
+}
+
+.doresize:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    filter: brightness(80%);
+    transition: ease-in-out;
+}
+
+.text-hover {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    display: none;
+}
+
+.doresize:hover .text-hover {
+    display: block;
+}
+
+.button-round-left {
+    width: 62px;
+    height: 62px;
+    background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
+    border-radius: 31px;
+    border: none;
+    position: relative;
+    top: -485px;
+    left: -7%;
+}
+
+.button-round-left::before {
+    content: url(../../assets/icons/VectorL.jpg);
+}
+
+.button-round-right {
+    width: 62px;
+    height: 62px;
+    background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
+    border-radius: 31px;
+    border: none;
+    position: relative;
+    top: -485px;
+    right: -96%;
+}
+
+.button-round-right::before {
+    content: url(../../assets/icons/VectorR.jpg);
+}
+
+.button-round-left:hover {
+    background: #e47209;
+    cursor: pointer;
+}
+
+.button-round-left:active {
+    background: #4b9200;
+}
+
+.button-round-right:hover {
+    background: #e47209;
+    cursor: pointer;
+}
+
+.button-round-right:active {
+    background: #4b9200;
+}
+
+.pets-block::before {
+    content: "";
+    background: url(../../assets/images/palm_foto.jpg);
+    position: absolute;
+    background-size: cover;
+    top: 2149px;
+    left: 0px;
+    width: 292px;
+    height: 460px;
+}
+
+.pets-block::after {
+    content: "";
+    background: url(../../assets/images/strelitzia.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 2334px;
+    right: 0;
+    width: 368px;
+    height: 275px;
+}
+
+.peek-and-feed {
+    padding: 69px 0px 100px;
+    align-items: center;
+    max-height: 1004px;
+    margin: 0 auto;
+    margin-top: 250px;
+    background: linear-gradient(315.75deg,
+            rgba(254, 210, 144, 0.7) 30.06%,
+            #febdab 100.95%,
+            rgba(254, 210, 144, 0.7) 106.36%),
+        linear-gradient(315.75deg,
+            rgba(254, 189, 171, 0.74) 30.06%,
+            rgba(243, 169, 248, 0.66) 50.74%,
+            #e0d8f0 80.49%,
+            #eaf7fe 127.9%,
+            #eaf7fe 149.54%),
+        linear-gradient(315.75deg,
+            rgba(254, 189, 171, 0.74) 30.06%,
+            rgba(243, 169, 248, 0.66) 50.74%,
+            #e0d8f0 80.49%,
+            #eaf7fe 127.9%,
+            #eaf7fe 149.54%);
+    opacity: 0.9;
+}
+
+.pink-box {
+    background: rgba(253, 253, 255, 0.52);
+    border-radius: 20px;
+    max-width: 1160px;
+    margin-top: 69px;
+    margin: 0 auto;
+    height: 835px;
+}
+
+h5 {
+    padding-top: 41px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+    /* identical to box height, or 58px */
+    text-align: center;
+    color: #fe9013;
+    margin: 0px;
+}
+
+#pick-big {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    /* identical to box height, or 29px */
+    color: #333b41;
+    padding-left: 99px;
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
+
+#pick-middle {
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 130%;
+    /* identical to box height, or 21px */
+    color: #333b41;
+    padding-left: 99px;
+    padding-top: 40px;
+    margin-top: 0px;
+    margin-bottom: 6px;
+}
+
+#pick-small {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #333b41;
+    padding-left: 99px;
+    padding-right: 198px;
+    margin-top: 8px;
+}
+
+a.ssilka-donation {
+    text-decoration: none;
+    color: #333b41;
+    border-bottom: 1px solid #fe9013;
+}
+
+h3 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 130%;
+    /* identical to box height, or 47px */
+    color: #333b41;
+    text-align: center;
+    margin-top: 62px;
+    margin-bottom: 40px;
+}
+
+#feed-a-friend {
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    top: 200px;
+    left: -660px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.row-map {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 130px;
+    padding-left: 198px;
+    padding-right: 198px;
+    margin: 0 auto;
+}
+
+.text-map {
+    margin-top: 30px;
+}
+
+.pink-box::before {
+    content: "";
+    background: url(../../assets/images/Vector.jpg);
+    position: absolute;
+    background-size: cover;
+    top: 3160px;
+    left: 39%;
+    width: 69px;
+    height: 35px;
+}
+
+.pink-box::after {
+    content: "";
+    background: url(../../assets/images/Vector.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 3160px;
+    right: 39%;
+    width: 69px;
+    height: 35px;
+}
+
+.testimonials {
+    max-height: 919px;
+    align-items: center;
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+.test-name {
+    margin-top: 140px;
+}
+
+.feedback-button {
+    width: 298px;
+    height: 54px;
+    background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.feedback-button:hover {
+    background: #e47209;
+    cursor: pointer;
+}
+
+.feedback-button:active {
+    background: #4b9200;
+}
+
+.row-test {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 0 auto;
+}
+
+.testim {
+    box-sizing: border-box;
+    background: #f1f3f2;
+    border-radius: 20px;
+    height: 389px;
+    width: 266px;
+}
+
+.testim-big {
+    background: linear-gradient(315.75deg,
+            rgba(254, 189, 171, 0.74) 30.06%,
+            rgba(243, 169, 248, 0.66) 50.74%,
+            #e0d8f0 80.49%,
+            #eaf7fe 127.9%,
+            #eaf7fe 149.54%),
+        linear-gradient(315.75deg,
+            rgba(254, 189, 171, 0.74) 30.06%,
+            rgba(243, 169, 248, 0.66) 50.74%,
+            #e0d8f0 80.49%,
+            #eaf7fe 127.9%,
+            #eaf7fe 149.54%);
+    border-radius: 20px;
+    margin-top: 7px;
+    padding: 2px;
+}
+
+.text-test {
+    padding-left: 16px;
+    padding-bottom: 19px;
+    padding-right: 14px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+    color: #767474;
+}
+
+.icon-port {
+    padding: 15px;
+    float: left;
+}
+
+.name-icon {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    padding-top: 15px;
+}
+
+.country-icon {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+    /* identical to box height, or 18px */
+
+    color: #bdbdbd;
+    padding-bottom: 10px;
+}
+
+.testimonials::after {
+    content: "";
+    background: url(../../assets/images/leav_foto.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 4243px;
+    right: 0;
+    width: 247px;
+    height: 295px;
+}
+
+.scroller {
+    margin: 0 auto;
+    margin-top: 17px;
+    margin-bottom: 27px;
+    align-items: center;
+    text-align: center;
+}
+
+.scroller-img {
+    margin: 0 auto;
+}
+
+footer {
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+    background-color: #111115;
+    text-align: center;
+    margin-top: 180px;
+}
+
+footer .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1160px;
+    max-height: 443px;
+    margin: 0 auto;
+    padding-top: 38px;
+}
+
+#donate-for-volunteers {
+    display: block;
+    text-decoration: none;
+    padding-bottom: 2px;
+}
+
+.social-links {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    list-style: none;
+    text-align: left;
+    padding-left: 0px;
+    margin-bottom: 50px;
+    color: #fff;
+    text-decoration-line: none;
+}
+
+.social-links a {
+    color: #fff;
+    text-decoration-line: none;
+}
+
+.name-subscribe {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: left;
+    padding-bottom: 14px;
+}
+
+.footer_navigation {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 250px;
+    padding-right: 150px;
+}
+
+.footer_navigation ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    list-style: none;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    padding-top: 40px;
+}
+
+.footer_navigation a {
+    margin-right: 30px;
+    color: #fff;
+    text-decoration-line: none;
+}
+
+.footer_navigation a:hover {
+    color: #f9804b;
+}
+
+input {
+    width: 228px;
+    height: 42px;
+    right: 359px;
+    top: 83px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: #F9804B solid 1px;
+    background-color: #111115;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    color: #FFFFFF;
+}
+
+.email {
+    padding-left: 10px;
+}
+
+
+.submit-button {
+    width: 129px;
+    height: 42px;
+    background: #F1F3F2;
+    /* black_blue */
+    border: 1px solid #333B41;
+    border-radius: 5px;
+    color: #000000;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.submit-button:hover {
+    color: #4B9200;
+    cursor: pointer;
+    border: 1px solid #4B9200;
+}
+
+.last-part {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 130%;
+    /* identical to box height, or 21px */
+    color: #FFFFFF;
+    font-weight: 300%;
+}
+
+#logo-footer-img {
+    padding-top: 0px;
+}
+
+
+
+.slidecontainer {
+    width: 100%;
+    /* Width of the outside container */
+}
+
+/* The slider itself */
+.slider {
+    -webkit-appearance: none;
+    /* Override default CSS styles */
+    appearance: none;
+    width: 600px;
+    height: 8px;
+    background: linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+    outline: none;
+    /* Remove outline */
+    opacity: 0.7;
+    /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s;
+    /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+    opacity: 1;
+    /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    /* Override default look */
+    appearance: none;
+    width: 115px;
+    /* Set a specific slider handle width */
+    height: 8px;
+    /* Slider handle height */
+    background: #FE9013;
+    cursor: pointer;
+    border-radius: 25%;
+}
+
+.slider::-moz-range-thumb {
+    width: 115px;
+    height: 8px;
+    background: #FE9013;
+    cursor: pointer;
+    border-radius: 25%;
+}
